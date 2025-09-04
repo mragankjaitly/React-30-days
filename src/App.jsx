@@ -9,17 +9,32 @@ import Name from './ProfileCard.jsx'
 
 import ProductCard from './ProductCard.jsx'
 
+import Counter from './Counter.jsx'
+
+import ToggleMessage from './ToggleMessage.jsx'
+
 function App() {
 
   return (
     <>
-      <div>
+      {/* <div>
         <h1>Hello World!</h1>
         <Name name = "Mragank" age = "22" city = "Bareilly"/>
       </div>
       <div>
         <ProductCard  titel = "Apple" price = "2" status = {false}/>
-      </div>
+      </div> */}
+
+      {/* <div>
+      <h1>Day 3: useState Practice</h1>
+      <Counter />
+    </div> */}
+
+    <div>
+      <h1>
+        <ToggleMessage/>
+      </h1>
+    </div>
     </>
   )
 }
