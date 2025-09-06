@@ -13,6 +13,10 @@ import Counter from './Counter.jsx'
 
 import ToggleMessage from './ToggleMessage.jsx'
 
+import TheamToggle from './TheamToggle.jsx'
+
+import Logger from './Logger.jsx'
+
 function App() {
 
   return (
@@ -30,10 +34,20 @@ function App() {
       <Counter />
     </div> */}
 
-    <div>
+    {/* <div>
       <h1>
         <ToggleMessage/>
       </h1>
+    </div> */}
+
+    {/* <div>
+      <h1>Day 3 recap + day 4 start</h1>
+      <TheamToggle/>
+    </div> */}
+
+    <div>
+      <h1>Day 4: useEffect Basics</h1>
+      <Logger/>
     </div>
     </>
   )
