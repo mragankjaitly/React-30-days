@@ -17,6 +17,11 @@ import TheamToggle from './TheamToggle.jsx'
 
 import Logger from './Logger.jsx'
 
+import Clock from './Clock.jsx'
+
+import TitleClock from "./TitleClock";
+
+
 function App() {
 
   return (
@@ -45,10 +50,18 @@ function App() {
       <TheamToggle/>
     </div> */}
 
-    <div>
+    {/* <div>
       <h1>Day 4: useEffect Basics</h1>
       <Logger/>
+    </div> */}
+
+    <div>
+      <h1>Day 5: Clock</h1>
+      <Clock/>
     </div>
+
+    <TitleClock />
+
     </>
   )
 }
