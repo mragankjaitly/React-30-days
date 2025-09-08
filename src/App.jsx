@@ -19,7 +19,9 @@ import Logger from './Logger.jsx'
 
 import Clock from './Clock.jsx'
 
-import TitleClock from "./TitleClock";
+import TitleClock from "./TitleClock"
+
+import UserList from './UserList.jsx'
 
 
 function App() {
@@ -55,12 +57,17 @@ function App() {
       <Logger/>
     </div> */}
 
-    <div>
+    {/* <div>
       <h1>Day 5: Clock</h1>
       <Clock/>
-    </div>
+    </div> */}
 
     <TitleClock />
+
+    <div>
+      <h1>Day 6: useEffect with API</h1>
+      <UserList />
+    </div>
 
     </>
   )

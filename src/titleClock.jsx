@@ -15,12 +15,12 @@ function TitleClock() {
     return () => clearInterval(timer);
   }, []);
 
-  return (
-    <div>
-      <h2>Check your tab title ⏰</h2>
-      <p>Current time is also displayed here: {time}</p>
-    </div>
-  );
+  // return (
+  //   <div>
+  //     <h2>Check your tab title ⏰</h2>
+  //     <p>Current time is also displayed here: {time}</p>
+  //   </div>
+  // );
 }
 
 export default TitleClock;
